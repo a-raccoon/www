@@ -17,7 +17,7 @@
 -->
 
 <ol>
-	<li><p>Start mIRC and where you would type text to send to a channel, type<span class="verbatim-b">/run</span> and hit Enter. A folder will open. Take note of this location.</p></li>
+	<li><p>Start mIRC and where you would type text to send to a channel, type<span class="verbatim-b">/run .</span> (slash RUN space period) and hit Enter. A folder will open. Take note of this location.</p></li>
 	<li><p>Download <a href="sasl.mrc">sasl.mrc</a> and save it in the folder from above. You may need to right click and select <span class="verbatim-i">Save Link As...</span>.</p></li>
 	<li><p>In mIRC, click <u>T</u>ools then Sc<u>r</u>ipts Editor.</p></li>
 	<li><p>Click on the Remotes tab, then on <u>F</u>ile and <u>L</u>oad. Find and load sasl.mrc.<br />
