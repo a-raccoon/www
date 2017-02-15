@@ -55,9 +55,7 @@ ALIAS SHITTY_SASL {
     noop $SUPER_SHITTY_SASL_AUTH($regml(1),$regml(2))
     debug $iif($window($debug),$v1,off)
   }
-  if ($regex($1-,/^-> \S+ 001/)) {
-    debug $iif($window($debug),$v1,off)  
-  }
+  if ($1 == <-) { debug $iif($window($debug),$v1,off) }
   return $1-
 }
 
